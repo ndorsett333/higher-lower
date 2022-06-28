@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello!</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1 id="title">Take a Guess!</h1>
+    <p>Will the mystery number be higher or lower?</p>
+    <h2>Score:<a id="score">0</a></h2>
+    <h3>High Score:<a id="highScore">0</a></h3>
+    <div id="app">
+        <div id="userCard" class="card"><a id="userNum" class="cardText">1</a></div>
+        <div id="compCard" class="card" id="compNum"><a id="compNum" class="cardText">_</a></div>
+        <button type="button" onclick="high()">Higher</button>
+        <br /><br />
+        <button type="button" onclick="low()">Lower</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
